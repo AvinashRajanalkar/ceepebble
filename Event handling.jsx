@@ -2,13 +2,13 @@ import React from 'react';
 
 class ButtonClicker extends React.Component {
   handleClick = () => {
-    alert('Button clicked');
+    alert('Button Clicked!');
   };
 
   render() {
     return (
       <div>
-        <button onClick={this.handleClick}>Button Clicker</button>
+        <button onClick={this.handleClick}>ButtonClicker</button>
       </div>
     );
   }
