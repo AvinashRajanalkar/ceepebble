@@ -58,7 +58,7 @@ class LoginForm extends Component {
 
 export default LoginForm;
 import React from 'react';
-import LoginForm from './LoginForm'; // Assuming the LoginForm component is in a separate file
+import LoginForm from './LoginForm';
 
 function App() {
   return (
